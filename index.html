@@ -4,16 +4,12 @@
         <title>Formulario de contacto</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     </head>
-    <body>
-    
-    </body>
-</html>
-
-
 <body>  
-   
+  <i class="fas fa-user-alt"></i> 
 
   <div class="contact_form">
 
@@ -26,13 +22,15 @@
 
   
                 <p>
+                  <i class="fas fa-user-alt"></i>
                   <label for="nombre" class="colocar_nombre">Nombre
-                    <span class="obligatorio">*</span>
+                  <span class="obligatorio">*</span>
                   </label>
-                  <img src="images/icon.png"> <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                  <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre"> 
                 </p>
               
                 <p>
+                  <i class="fas fa-envelope"></i>
                   <label for="email" class="colocar_email">Email
                     <span class="obligatorio">*</span>
                   </label>
@@ -40,12 +38,15 @@
                 </p>
             
                 <p>
+                  <i class="fas fa-mobile-alt"></i>
                   <label for="telefone" class="colocar_telefono">Teléfono
+                    <span class="obligatorio">*</span>
                   </label>
-                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                    <input type="tel" name="introducir_telefono" id="telefono" required="obligatorio" placeholder="Escribe tu teléfono" pattern="[0-9]{9}">
                 </p>      
 
                 <p>
+                  <i class="fas fa-comment-dots"></i>
                   <label for="mensaje" class="colocar_mensaje">Mensaje
                     <span class="obligatorio">*</span>
                   </label>                     
